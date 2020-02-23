@@ -11,8 +11,27 @@
 }
 
 #nom{
-    display: column;
+    display: flex;
     padding-right: 30em;
+}
+
+.photo2
+{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+
+.photo_ecran
+{
+ display: none;
 }
 
 cite
@@ -349,7 +368,7 @@ aside
 
     .cercle1,.cercle
     {
-        display: none;
+        display: none; 
     }
      
     .form1,.form2,.form3,.form4
@@ -373,5 +392,28 @@ aside
         margin-right: auto;
         
     }
-   
+    h2
+    {
+     width: 100%;
+    }
+    #ph
+    {
+        display:none;
+    }
+    .photo_ecran
+    {
+        display: block
+    }
+    .photo2
+    {
+       padding-top: 20px;
+    }
+    .Nom2
+    {
+        font-size: x-large;
+    }
+    aside
+    {
+        margin-top: 7px;
+    }
 }
