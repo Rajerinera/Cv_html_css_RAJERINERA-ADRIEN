@@ -122,9 +122,7 @@ strong
     text-transform: uppercase;
     font-style: normal;
 }
-.liste
-{
-    list-style-type: none;
+
 }
 .bannière{
     display: flex;
@@ -145,7 +143,7 @@ strong
       }
 
 .form1_etude{
-    padding-right: 118px;
+    padding-right: 270px;
     margin-left: 0%;
 }
 
@@ -160,10 +158,10 @@ strong
     margin-left: 0%;
 }
 .form3_etude{
-    padding-right: 220px;
+    padding-right: 230px;
 }
 .form4_etude{
-    padding-right: 20px;
+    padding-right: 160px;
 }
 
 .form4{display: flex;
@@ -248,35 +246,42 @@ address
 }
 
 .taf1_m{
-    padding-right: 20px;
-    margin-right: 150px;
+    padding-right: 300px;
+
     
 }
 .taf2_m{
-    padding-right: 52px;   
+    padding-right: 240px;
+    margin-left: 30px;   
+    margin-right: 0px;
 }
 .taf3_m
 {
-    padding-right:165px;
+    padding-right:300px;
+    margin-left: 30px;
+    margin-right: 0px;
 }
 .taf4_m{
-    padding-right:120px;
+    padding-right: 210px;
+    margin-left: 30px;
     
 }
 
 .taf1_date{
-    margin-right: 280px;
+    margin-left: 0px;
+    margin-right: 120px;
 }
 
 .taf2_date{
-    margin-right: 310px;
+    margin-right: 110px;
+    margin-left: 0px;
 }
 
 .taf3_date{
-    margin-right: 330px;
+    margin-right: 120px;
 }
 .taf4_date{
-    margin-right:300px;
+    margin-right:100px;
 }
 aside p
 {
