@@ -205,9 +205,10 @@ img.photo
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
     margin-top: 30px;
     margin-bottom: 20px;    
+    margin-left: 60px;
+    
 }
 
 #presentation
@@ -290,7 +291,7 @@ aside p
 
 aside
 {
-    margin-top: 520px;
+    margin-top: 40em;
 }
 
 .grad
