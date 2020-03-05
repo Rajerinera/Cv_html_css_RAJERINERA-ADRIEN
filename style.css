@@ -12,7 +12,6 @@
 
 #nom{
     display: flex;
-    padding-right: 30em;
 }
 
 .photo2
@@ -24,7 +23,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
     margin-top: 30px;
     margin-bottom: 20px; 
 }
@@ -62,28 +60,21 @@ cite
 #title1,#title2,#title3
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 #title1
 {
-    padding-top: 50px;
-    padding-right: 46em;
+    
 }
 
 #title2
 {
     
-    padding-right: 31em;
-    padding-top: 100px;
 }
 
 #title3
 {
-   
-    padding-right: 43em;
-    padding-top: 150px;
     
 }
 
@@ -99,8 +90,7 @@ text-transform: uppercase;
 color: #ffd700;
 font-size: 30px;
 text-align: center; 
-width: 108%;
-margin-left: -4%; 
+padding: 0%
 }
 
 h4
@@ -139,42 +129,39 @@ strong
 }
 
 .form1{display: flex;
-       justify-content: space-between;
       }
 
 .form1_etude{
-    padding-right: 270px;
     margin-left: 0%;
 }
 
 .form2{display: flex;
-    justify-content: space-between}
+ }
 
 .form3{display: flex;
-    justify-content: space-between}
+}
 
 .form2_etude{
-    padding-right: 180px;
-    margin-left: 0%;
+
 }
 .form3_etude{
-    padding-right: 230px;
+
 }
 .form4_etude{
-    padding-right: 160px;
+    
 }
 
 .form4{display: flex;
-    justify-content: space-between}
+}
 
 
 .form1_date
 {
-    margin-right: 160px;
+    
 }
 .form2_date,.form3_date,.form4_date
 {
-    margin-right: 215px;
+
 }
 
 .element1 
@@ -243,46 +230,33 @@ address
 
 .taf{
     display:flex;
-    justify-content: space-between;
 }
 
 .taf1_m{
-    padding-right: 300px;
-
     
 }
 .taf2_m{
-    padding-right: 240px;
-    margin-left: 30px;   
-    margin-right: 0px;
+    
 }
 .taf3_m
 {
-    padding-right:300px;
-    margin-left: 30px;
-    margin-right: 0px;
+  
 }
 .taf4_m{
-    padding-right: 210px;
-    margin-left: 30px;
     
 }
 
 .taf1_date{
-    margin-left: 0px;
-    margin-right: 120px;
+
 }
 
 .taf2_date{
-    margin-right: 110px;
-    margin-left: 0px;
+    
 }
 
 .taf3_date{
-    margin-right: 120px;
 }
-.taf4_date{
-    margin-right:100px;
+.taf4_date
 }
 aside p
 {
@@ -291,7 +265,6 @@ aside p
 
 aside
 {
-    margin-top: 40em;
 }
 
 .grad
