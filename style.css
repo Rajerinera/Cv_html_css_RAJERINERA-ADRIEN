@@ -122,7 +122,6 @@ strong
 
 #conteneur{
     display:flex;
-    justify-content: space-around;
     width: 100%;
     
 }
@@ -142,6 +141,29 @@ strong
 .form_date
 {
    margin-left: 20px;
+}
+.plan
+{
+    display: flex;
+    margin-left: 50px;
+}
+
+/* la partie taf */
+.taf{
+    display:flex;
+    width: 80%;
+}
+
+.taf1_m{
+    padding-left: 30px;
+    
+}
+.taf_m{
+    padding-left: 105px;
+}
+.taf_date{
+    margin-left:20px;
+
 }
 
 
@@ -209,42 +231,8 @@ address
     display: flex;
 
 }
-.plan
-{
-    display: flex;
-    margin-left: 50px;
-}
-.taf{
-    display:flex;
-    margin-left:50px;
-}
 
-.taf1_m{
-    
-}
-.taf2_m{
-    
-}
-.taf3_m
-{
-  
-}
-.taf4_m{
-    
-}
 
-.taf1_date{
-
-}
-
-.taf2_date{
-    
-}
-
-.taf3_date{
-}
-.taf4_date
-}
 aside p
 {
      color:#212121;
