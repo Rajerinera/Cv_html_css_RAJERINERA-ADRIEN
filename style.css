@@ -16,15 +16,13 @@
 
 .photo2
 {
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
     object-fit: cover;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: 20px; 
+    margin-top: 35px;
 }
 
 .photo_ecran
@@ -95,6 +93,7 @@ padding: 0%
 
 h4
 {
+    background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -128,41 +127,23 @@ strong
     
 }
 
-.form1{display: flex;
+/* La partie formation */
+.form{display: flex;
+    width: 80%;
       }
-
-.form1_etude{
-    margin-left: 0%;
-}
-
-.form2{display: flex;
- }
-
-.form3{display: flex;
-}
-
-.form2_etude{
-
-}
-.form3_etude{
-
-}
-.form4_etude{
-    
-}
-
-.form4{display: flex;
-}
-
-
-.form1_date
+.form_etude
 {
-    
+    padding-left:105px;
 }
-.form2_date,.form3_date,.form4_date
+.form1_etude
 {
-
+    padding-left: 30px
 }
+.form_date
+{
+   margin-left: 20px;
+}
+
 
 .element1 
 {
@@ -171,6 +152,7 @@ strong
     text-align: justify;
     background-color: #ffd700;
     margin-left: 0%;
+    position: relative;
     
 }
 
@@ -227,9 +209,14 @@ address
     display: flex;
 
 }
-
+.plan
+{
+    display: flex;
+    margin-left: 50px;
+}
 .taf{
     display:flex;
+    margin-left:50px;
 }
 
 .taf1_m{
@@ -265,6 +252,10 @@ aside p
 
 aside
 {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    width: 100%;
 }
 
 .grad
@@ -317,7 +308,7 @@ aside
  
  } 
 
-@media all and (max-width: 991px)
+@media all and (min-width:380px) and (max-width: 991px)
 {
 
     p
@@ -327,15 +318,15 @@ aside
 
     #conteneur
     {
-      flex-direction: column-reverse;
-      padding-right: calc(100%-24px);    
+      flex-direction: column-reverse;    
     }
 
 
     .element1,.element2
     {
-      width: calc(100% - 24px);
+      width:90%;
       margin: 0%;
+      border: 1px solid;
     
     }
 
@@ -393,6 +384,10 @@ aside
     }
     aside
     {
-        margin-top: 7px;
+     position: relative;   
     }
 }
+@media all and (max-width:379px)
+{  
+.element1
+{ 
