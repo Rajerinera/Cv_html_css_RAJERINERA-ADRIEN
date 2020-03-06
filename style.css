@@ -61,21 +61,6 @@ cite
     align-items: center;
 }
 
-#title1
-{
-    
-}
-
-#title2
-{
-    
-}
-
-#title3
-{
-    
-}
-
 h1
 {
     font-size: 1.3em;    
@@ -149,14 +134,14 @@ strong
 }
 
 /* la partie taf */
-.taf{
-    display:flex;
+
+.taf
+{
+    display: flex;
     width: 80%;
 }
-
 .taf1_m{
-    padding-left: 30px;
-    
+    padding-left: 75px;
 }
 .taf_m{
     padding-left: 105px;
@@ -184,7 +169,6 @@ strong
     padding: 12px;
     background-image: url("fond-site.jpg");
     margin-left: 0%;
-    padding-right: ;
 }
 
 img.photo
