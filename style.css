@@ -1,13 +1,14 @@
 
-
+body
+{
+    margin: 0%
+}
 
 *
 {
     font-family:'Times New Roman', Times, serif;
     font-size: 1em;
     text-align: justify;
-   
-    
 }
 
 #nom{
@@ -22,7 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .photo_ecran
@@ -43,7 +44,9 @@ cite
 }
 
 .Nom2{
+    margin-top: -30px;
      font-size: 2em;
+     margin-bottom:80px ;
     
 }
 
@@ -78,7 +81,9 @@ padding: 0%
 
 h4
 {
-    background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(blue,red);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-size: 20px;
 }
@@ -97,7 +102,6 @@ strong
     font-style: normal;
 }
 
-}
 .bannière{
     display: flex;
     justify-content: center;
@@ -110,19 +114,18 @@ strong
     width: 100%;
     
 }
-
 /* La partie formation */
-.form{display: flex;
-    width: 80%;
-      }
+.form
+{display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
 .form_etude
 {
-    padding-left:105px;
+    border: 1px solid;
+    width: 50%;
 }
-.form1_etude
-{
-    padding-left: 30px
-}
+
 .form_date
 {
    margin-left: 20px;
@@ -130,28 +133,17 @@ strong
 .plan
 {
     display: flex;
-    margin-left: 50px;
+    margin-left: 20px;
+    width: 30%;
+    border: 1px solid;
 }
 
 /* la partie taf */
-
-.taf
+.taf_m
 {
-    display: flex;
-    width: 80%;
+    border: 1px solid;
+    width: 50%
 }
-.taf1_m{
-    padding-left: 75px;
-}
-.taf_m{
-    padding-left: 105px;
-}
-.taf_date{
-    margin-left:20px;
-
-}
-
-
 .element1 
 {
     width: 25%;
@@ -160,15 +152,17 @@ strong
     background-color: #ffd700;
     margin-left: 0%;
     position: relative;
+    box-sizing: border-box;
     
 }
 
 .element2 
 {
     width: 75%;
-    padding: 12px;
+    padding: 5px;
     background-image: url("fond-site.jpg");
     margin-left: 0%;
+    box-sizing: border-box;
 }
 
 img.photo
@@ -182,16 +176,14 @@ img.photo
     align-items: center;
     margin-top: 30px;
     margin-bottom: 20px;    
-    margin-left: 60px;
+    margin-left: 0px;
     
 }
 
 #presentation
 {
-    text-align: justify-all;
     color: #212121;
     font-style: italic;
-    padding-bottom: 16%;
 }
 
 
@@ -290,53 +282,39 @@ aside
 
     #conteneur
     {
-      flex-direction: column-reverse;    
+      flex-direction: column-reverse;
+      width: 100%;    
     }
 
 
-    .element1,.element2
+    .element1
     {
-      width:90%;
-      margin: 0%;
-      border: 1px solid;
-    
+      width: 100%;
     }
 
     .element2
     {
         background-color: aliceblue;
         background-image: none;
+        width: 100%;
     }
 
-    .cercle1,.cercle
-    {
-        display: none; 
-    }
-     
+    
     .form1,.form2,.form3,.form4
     {
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
     }
      
     .taf
     {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
     h3
     {
         background-color: none;
-        width:100%;
-        margin-left: auto;
-        margin-right: auto;
         
-    }
-    h2
-    {
-     width: 100%;
     }
     #ph
     {
@@ -354,12 +332,19 @@ aside
     {
         font-size: x-large;
     }
+    #nom
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #presentation
+    {
+        width: 100%;
+    }
     aside
     {
-     position: relative;   
+        position: relative;
+
     }
 }
-@media all and (max-width:379px)
-{  
-.element1
-{ 
+
