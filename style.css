@@ -121,7 +121,6 @@ strong
 }
 .form_etude
 {
-    border: 1px solid;
     width: 50%;
 }
 
@@ -134,13 +133,11 @@ strong
     display: flex;
     margin-left: 20px;
     width: 30%;
-    border: 1px solid;
 }
 
 /* la partie taf */
 .taf_m
 {
-    border: 1px solid;
     width: 50%
 }
 .element1 
@@ -321,11 +318,16 @@ aside
     }
     .photo_ecran
     {
-        display: block
+        display: block;
+        
     }
     .photo2
     {
-       padding-top: 20px;
+       height: 160px;
+       width: 160px;
+       position: relative;
+       left:90px;
+       border: 5px solid
     }
     .Nom2
     {
