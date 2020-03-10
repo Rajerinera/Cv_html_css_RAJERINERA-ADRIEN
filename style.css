@@ -8,7 +8,6 @@ body
 {
     font-family:'Times New Roman', Times, serif;
     font-size: 1em;
-    text-align: justify;
 }
 
 #nom{
@@ -84,7 +83,7 @@ h4
     color: black;
     text-transform: uppercase;
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 hr
@@ -121,7 +120,7 @@ strong
 }
 .form_etude
 {
-    width: 50%;
+    width: 40%;
 }
 
 .form_date
@@ -132,13 +131,13 @@ strong
 {
     display: flex;
     margin-left: 20px;
-    width: 30%;
+    width: 40%;
 }
 
 /* la partie taf */
 .taf_m
 {
-    width: 50%
+    width: 40%;
 }
 .element1 
 {
@@ -157,7 +156,7 @@ strong
     width: 75%;
     padding: 5px;
     background-image: url("fond-site.jpg");
-    margin-left: 0%;
+    margin-left: 15px;
     box-sizing: border-box;
 }
 
@@ -228,7 +227,7 @@ aside
 #sport
 {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
          
 }
 
@@ -243,7 +242,25 @@ aside
  .compétence_informatique
  {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
+ }
+ ul
+ {
+     width: 100%;
+     list-style-type: none;
+     padding: 0;
+ }
+ .competence
+ {
+     width: 50%;
+ }
+
+ .competence p 
+ {
+     text-decoration: underline;
+     text-transform: uppercase;
+     font-weight: bold;
+     
  }
 
  .cercle1
@@ -270,12 +287,6 @@ aside
 
 @media all and (min-width:380px) and (max-width: 991px)
 {
-
-    p
-    {
-      font-size:1.3em;
-    }
-
     #conteneur
     {
       flex-direction: column-reverse;
@@ -293,13 +304,6 @@ aside
         background-color: aliceblue;
         background-image: none;
         width: 100%;
-    }
-
-    
-    .form1,.form2,.form3,.form4
-    {
-      display: flex;
-      flex-direction: column;
     }
      
     .taf
@@ -346,6 +350,20 @@ aside
     {
         position: relative;
 
+    }
+    ul
+    {
+        list-style-type: none;
+    }
+    .informatique
+    {
+        width: 50%;
+        border: 1px solid
+    }
+    p
+    {
+        font-size: large;
+        text-align: start;
     }
 }
 
