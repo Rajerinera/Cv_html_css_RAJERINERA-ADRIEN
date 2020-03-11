@@ -83,7 +83,7 @@ h4
     color: black;
     text-transform: uppercase;
     font-size: 20px;
-    padding-left: 30px;
+    box-sizing: border-box
 }
 
 hr
@@ -142,10 +142,8 @@ strong
 .element1 
 {
     width: 25%;
-    padding: 12px;
     text-align: justify;
     background-color: #ffd700;
-    margin-left: 0%;
     position: relative;
     box-sizing: border-box;
     
@@ -154,9 +152,7 @@ strong
 .element2 
 {
     width: 75%;
-    padding: 5px;
     background-image: url("fond-site.jpg");
-    margin-left: 15px;
     box-sizing: border-box;
 }
 
@@ -285,18 +281,19 @@ aside
  
  } 
 
-@media all and (min-width:380px) and (max-width: 991px)
+@media all and ( max-width: 991px)
+
 {
     #conteneur
     {
-      flex-direction: column-reverse;
-      width: 100%;    
+      flex-direction: column-reverse;  
     }
 
 
     .element1
     {
       width: 100%;
+      margin: 0%
     }
 
     .element2
@@ -304,17 +301,13 @@ aside
         background-color: aliceblue;
         background-image: none;
         width: 100%;
+        margin:0%;
     }
      
     .taf
     {
         display: flex;
         flex-direction: column;
-    }
-    h3
-    {
-        background-color: none;
-        
     }
     #ph
     {
@@ -323,6 +316,7 @@ aside
     .photo_ecran
     {
         display: block;
+        width: 10%;
         
     }
     .photo2
@@ -330,7 +324,7 @@ aside
        height: 160px;
        width: 160px;
        position: relative;
-       left:90px;
+       left:70px;
        border: 5px solid
     }
     .Nom2
@@ -355,10 +349,9 @@ aside
     {
         list-style-type: none;
     }
-    .informatique
+    .compétence_informatique
     {
-        width: 50%;
-        border: 1px solid
+        width: 80%;
     }
     p
     {
