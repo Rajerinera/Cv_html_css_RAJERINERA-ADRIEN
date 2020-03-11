@@ -83,6 +83,7 @@ h4
     color: black;
     text-transform: uppercase;
     font-size: 20px;
+    margin-left:20px;
     box-sizing: border-box
 }
 
@@ -153,6 +154,7 @@ strong
 {
     width: 75%;
     background-image: url("fond-site.jpg");
+    padding-left: 10px;
     box-sizing: border-box;
 }
 
